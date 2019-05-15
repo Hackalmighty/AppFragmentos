@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".Actvidades.SecondActivity">
 
+    <fragment
+        android:name="com.example.tecsup.appfragmentos.Fragmentos.ListaFragment"
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_lista"
+        />
+
 </android.support.constraint.ConstraintLayout>

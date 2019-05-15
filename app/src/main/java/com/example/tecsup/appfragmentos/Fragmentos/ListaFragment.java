@@ -1,6 +1,7 @@
 package com.example.tecsup.appfragmentos.Fragmentos;
 
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -52,6 +53,7 @@ public class ListaFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(getContext(),lista.get(position), Toast.LENGTH_SHORT).show();
+                view.setBackgroundColor(Color.BLUE);
             }
         });
 
